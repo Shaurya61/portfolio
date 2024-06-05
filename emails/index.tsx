@@ -21,7 +21,7 @@ interface ContactEmailProps {
   message: string;
 }
 
-const baseUrl = 'https://portfolio-jqawf1r9v-shaurya61s-projects.vercel.app' ;
+const baseUrl = 'https://portfolio-jqawf1r9v-shaurya61s-projects.vercel.app/' ;
 
 export const ContactEmail: FC<ContactEmailProps> = ({
   fullname,
