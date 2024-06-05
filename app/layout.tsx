@@ -51,9 +51,9 @@ export default function RootLayout({
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Shaurya Say Hi! | Full Stack Developer" />
         <meta property="og:description" content="Welcome to Shaurya's portfolio. Explore projects and skills of a passionate Full Stack Developer experienced in Next.js, React, and the MERN stack." />
-        <meta property="og:url" content="https://portfolio-lqdqot0mr-shaurya61s-projects.vercel.app/" />
+        <meta property="og:url" content="https://666035c9461e20e6631db283--shauryanayyardev.netlify.app/" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://portfolio-lqdqot0mr-shaurya61s-projects.vercel.app/profile3.png" />
+        <meta property="og:image" content="https://666035c9461e20e6631db283--shauryanayyardev.netlify.app/profile3.png" />
         <meta property="og:image:width" content="800" />
         <meta property="og:image:height" content="600" />
         <meta property="og:image:alt" content="Shaurya Nayyar's Portfolio" />
@@ -61,7 +61,7 @@ export default function RootLayout({
         <meta name="twitter:site" content="https://x.com/Shaurya35804973" />
         <meta name="twitter:title" content="Shaurya Say Hi! | Full Stack Developer" />
         <meta name="twitter:description" content="Welcome to Shaurya's portfolio. Explore projects and skills of a passionate Full Stack Developer experienced in Next.js, React, and the MERN stack." />
-        <meta name="twitter:image" content="https://portfolio-lqdqot0mr-shaurya61s-projects.vercel.app/twitter.jpg" />
+        <meta name="twitter:image" content="https://666035c9461e20e6631db283--shauryanayyardev.netlify.app/twitter.jpg" />
         <title>Shaurya Say Hi! | Full Stack Developer</title>
       </head>
       <body className={inter.className}>{children}</body>
