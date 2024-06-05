@@ -1,7 +1,8 @@
+
 import { FormData } from "@/app/(landing page)/pages/contact";
 
 export function sendEmail(data: FormData) {
-  const apiEndpoint = `/api/email/route.ts`;
+  const apiEndpoint = '/api/email';
 
   fetch(apiEndpoint, {
     method: 'POST',
