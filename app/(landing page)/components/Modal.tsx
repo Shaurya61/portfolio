@@ -43,7 +43,7 @@ const Modal: React.FC<ModalProps> = ({ showModal, setShowModal }) => {
           <DialogTitle className="flex h-10 items-center text-3xl">
             Resume &nbsp;&nbsp;
             <a
-              href="/resume.pdf"
+              href="/Resume_updated.pdf"
               download="Shaurya_Nayyar_Resume.pdf"
               onClick={() => {
                 analyticsEvent('download_resume', {
@@ -61,7 +61,7 @@ const Modal: React.FC<ModalProps> = ({ showModal, setShowModal }) => {
           </DialogTitle>
           <DialogFooter className="relative w-full flex-grow overflow-hidden">
             <iframe
-              src="/resume_updated.pdf"
+              src="/Resume_updated.pdf"
               allow="autoplay"
               className="absolute inset-0 z-10 h-full w-full"
               title="Resume Preview"
