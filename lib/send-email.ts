@@ -1,8 +1,7 @@
-
 import { FormData } from "@/app/(landing page)/pages/contact";
 
 export function sendEmail(data: FormData) {
-  const apiEndpoint = '/api/email';
+  const apiEndpoint = `${process.env.BASE_URL}/api/email`;
 
   fetch(apiEndpoint, {
     method: 'POST',

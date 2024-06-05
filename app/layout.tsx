@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Shaurya Say Hi! | Full Stack Developer",
     description: "Welcome to Shaurya's portfolio. Explore projects and skills of a passionate Full Stack Developer experienced in Next.js, React, and the MERN stack.",
-    url: "https://portfolio-lqdqot0mr-shaurya61s-projects.vercel.app",
+    url: `${process.env.BASE_URL}`,
     type: "website",
     images: [
       {
-        url: "https://portfolio-lqdqot0mr-shaurya61s-projects.vercel.app/profile3.png",
+        url: `${process.env.BASE_URL}/profile3.png`,
         width: 800,
         height: 600,
         alt: "Shaurya's Portfolio",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     site: "https://x.com/Shaurya35804973",
     title: "Shaurya Say Hi! | Full Stack Developer",
     description: "Welcome to Shaurya's portfolio. Explore projects and skills of a passionate Full Stack Developer experienced in Next.js, React, and the MERN stack.",
-    images: ["https://portfolio-lqdqot0mr-shaurya61s-projects.vercel.app/twitter.jpg"],
+    images: [`${process.env.BASE_URL}/twitter.jpg`],
   },
   keywords: ["Shaurya Nayyar", "Full Stack Developer", "Next.js", "React", "MERN stack", "Portfolio"],
   authors: [{ name: "Shaurya Nayyar" }],
