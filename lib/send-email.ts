@@ -2,7 +2,7 @@
 import { FormData } from "@/app/(landing page)/pages/contact";
 
 export function sendEmail(data: FormData) {
-  const apiEndpoint = 'https://portfolio-jqawf1r9v-shaurya61s-projects.vercel.app/api/email';
+  const apiEndpoint = 'https://portfolio-lqdqot0mr-shaurya61s-projects.vercel.app/api/email';
 
   fetch(apiEndpoint, {
     method: 'POST',
