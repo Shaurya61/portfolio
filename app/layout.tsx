@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Shaurya Say Hi! | Full Stack Developer",
     description: "Welcome to Shaurya's portfolio. Explore projects and skills of a passionate Full Stack Developer experienced in Next.js, React, and the MERN stack.",
-    url: "https://portfolio-lqdqot0mr-shaurya61s-projects.vercel.app/",
+    url: "https://portfolio-lqdqot0mr-shaurya61s-projects.vercel.app",
     type: "website",
     images: [
       {
