@@ -1,4 +1,3 @@
-// components/Education.tsx
 'use client';
 
 import React from "react";
@@ -30,13 +29,14 @@ function Education() {
               title: 'Freelance Web Developer',
               subtitle: 'Basyo',
               subtitleLink: 'https://basyo.net',
-              description: 'A three-party matchmaking system designed to cater to the distinct needs of fitness instructors, venue providers, and fitness enthusiasts alike.',
+              description: 'BASYO is a platform that supports people to create energy that suits their lifestyle, regardless of place or time. BASYO is an unprecedented, wellness-focused platform that allows anyone to easily and enjoyably aim for a healthy mind and body, and supports the creation of value for individuals and places with ease.',
               tasks: [
                 'Built a Minimum Viable Product (MVP) using Bubble, a no-code platform, under tight deadlines.',
                 'Led the entire product lifecycle from initial concept to deployment, making key design and functionality decisions.',
                 'Managed client communications, gathering requirements, and providing regular updates to ensure project alignment with client expectations.',
                 'Website: basyo.online'
-              ]
+              ],
+              websiteLink: 'basyo.online'
             },
             {
               id: 'nullclass',
@@ -51,7 +51,8 @@ function Education() {
                 'Implemented a subscription-based payment system with Stripe.',
                 'Learned about MERN stack, OPEN AI API, development and Hosting and Industry best practices',
                 'Website: stackover-flow-clone.vercel.app'
-              ]
+              ],
+              websiteLink: 'stackover-flow-clone.vercel.app'
             },
             {
               id: 'netaji-subhas-university',
@@ -103,14 +104,17 @@ function Education() {
                   {item.tasks.map((task, taskIndex) => (
                     <li key={taskIndex} className="my-2 list-disc">
                       {task.includes('Website:') ? (
-                        <a
-                          href={`http://${task.split(' ')[1]}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="underline hover:text-white"
-                        >
-                          {task}
-                        </a>
+                        <>
+                          {'Website: '}
+                          <a
+                            href={`http://${task.split(' ')[1]}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="underline hover:text-white"
+                          >
+                            {task.split(' ')[1]}
+                          </a>
+                        </>
                       ) : (
                         task
                       )}
